@@ -1,2 +1,4 @@
 *.ict
 .DS_Store
+*.png
+*.pyc
