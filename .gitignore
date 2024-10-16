@@ -1,4 +1,4 @@
 *.ict
 .DS_Store
 *.png
-*.pyc
+*.cpython-313.pyc
