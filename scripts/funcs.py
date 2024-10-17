@@ -44,4 +44,4 @@ def read_all(glob_key):
     d_list = []
     for i in range(0,len(paths)):
         d_list.append(simple_read(paths[i]))
-    return pd.concat(d_list)
+    return pd.concat(d_list).reset_index(drop=True)
